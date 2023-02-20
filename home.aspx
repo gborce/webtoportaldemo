@@ -470,8 +470,8 @@ MS_POSITIONING="GridLayout">
 	  <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000" height="20">
 		<tr> 
 		  <td class="Footer" align="center" valign="middle">&nbsp;<a href="#" class= "Footer">Contact 
-			Us</a> | <a href="#" class= "Footer">Site Map</a> | <a href="#" class= "Footer">People's 
-			Financial Inc.</a> | <a href="#" class= "Footer">Non- U.S. Residents</a> 
+			Us</a> | <a href="#" class= "Footer">Site Map</a> | <a href="#" class= "Footer"> 
+			Financial Inc.</a> | <a href="#" class= "Footer">Residents</a> 
 			| <a href="#" class= "Footer">Privacy &amp; Cookies</a> | <a href="#" class= "Footer">Terms 
 			of Use</a> | <a href="#" class= "Footer">Copyright</a></td>
 		</tr>
