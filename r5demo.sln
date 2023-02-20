@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "r5demo", "http://localhost/r5demo/r5demo.csproj", "{F71AAE0B-2111-4499-80F9-6ED53616B066}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "extranetadmin", "http://localhost/extranetadmin/extranetadmin.csproj", "{8F7CA6A9-CD3A-4D4B-8265-6C8C85BC2F5C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F71AAE0B-2111-4499-80F9-6ED53616B066}.Debug.ActiveCfg = Debug|.NET
+		{F71AAE0B-2111-4499-80F9-6ED53616B066}.Debug.Build.0 = Debug|.NET
+		{F71AAE0B-2111-4499-80F9-6ED53616B066}.Release.ActiveCfg = Release|.NET
+		{F71AAE0B-2111-4499-80F9-6ED53616B066}.Release.Build.0 = Release|.NET
+		{8F7CA6A9-CD3A-4D4B-8265-6C8C85BC2F5C}.Debug.ActiveCfg = Debug|.NET
+		{8F7CA6A9-CD3A-4D4B-8265-6C8C85BC2F5C}.Debug.Build.0 = Debug|.NET
+		{8F7CA6A9-CD3A-4D4B-8265-6C8C85BC2F5C}.Release.ActiveCfg = Release|.NET
+		{8F7CA6A9-CD3A-4D4B-8265-6C8C85BC2F5C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
