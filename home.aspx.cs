@@ -14,9 +14,13 @@ using System.Configuration;
 
 namespace r5demo
 {
+	///////////////////////////////////////////////////////////////////////////
 	/// <summary>
-	/// Summary description for home.
+	/// Bruce Gjorgjievski
+	/// Backend C# for web front end for portal connectivity
 	/// </summary>
+	/////////////////////////////////////////////////////////////////////////
+
 	public class home : System.Web.UI.Page
 	{
 		protected System.Web.UI.WebControls.Repeater rptHomeArticles;
