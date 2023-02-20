@@ -44,7 +44,7 @@ namespace r5demo
 		private void getHomePageContent(int howMany)
 		{
 			//
-			//get the top 5 articles tagged as homepage eligible
+			//get the top 5 articles tagged as homepage eligible using SQL SELECT
 			sqlstring = "SELECT TOP "+howMany+" HomeSnippet, ItemDate FROM HomePage INNER JOIN Item ON ItemID=ID WHERE Type=1 ORDER BY ItemOrder";
 			//sqlstring = "SELECT TOP "+howMany+" HomeSnippet, ItemDate FROM Item WHERE Type=1 ORDER BY ItemDate DESC";
 			cmd.CommandText = sqlstring;
@@ -53,7 +53,7 @@ namespace r5demo
 			rptHomeArticles.DataSource = dr;
 			rptHomeArticles.DataBind ();
 			dr.Close ();
-			//get the top 5 products tagged as homepage eligible
+			//get the top 5 products tagged as homepage eligible using SQL SELECT
 			sqlstring = "SELECT TOP  "+howMany+"  HomeSnippet FROM HomePage INNER JOIN Item ON ItemID=ID WHERE Type=2 ORDER BY ItemOrder";
 			cmd.CommandText = sqlstring;
 			cmd.Connection.Open();
