@@ -1,2 +1,2 @@
 # webtoportaldemo
- Web page with C# backend connecting to portal
+ Web front end ASPX with C# backend connecting to portal Visual Studio prject
